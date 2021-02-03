@@ -1,14 +1,14 @@
 body { 
   margin:0px; 
   padding:5px; 
-  background:#c7d6d5; 
+  background:#CCFCCB; 
   color:#000;
   font-family:Arial,Helvetica,sans-serif;
 }
-a:link { color:#45503b; text-decoration:none; }
-a:visited { color:#45503b; text-decoration:none; }
-a:hover { color:#6d7275; }
-a.active { color:#c20114; }
+a:link { color:#464E47; text-decoration:none; }
+a:visited { color:#464E47; text-decoration:none; }
+a:hover { color:#464E47; }
+a.active { color:#568259; }
 
 .main {
   width:100%;
@@ -37,7 +37,7 @@ a.active { color:#c20114; }
   min-width:600px;
   margin-left:250px;
   margin-right:250px;
-  background:#f5f8de;
+  background:#F1FFFA;
 }
 
 .content ul li {

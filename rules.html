@@ -2,8 +2,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>SAT Competition 2020</title>
+<title class='tpl-name'></title>
 <link rel="stylesheet" href="main.css" type="text/css">
+<link rel="stylesheet" href="template.css" type="text/css">
 <link rel="icon" type="image/x-icon" href="doge2.ico">
 <script src="https://www.w3schools.com/lib/w3.js"></script>
 <style>a#rules { color:#c20114; }</style>
@@ -15,7 +16,7 @@
   <script>w3.includeHTML();</script> 
 
   <div class="content">
-    <h1>SAT Competition 2020</h1>
+    <h1 class='tpl-name'></h1>
 	<p>
 	<h2>Mandatory participation requirements for SAT solvers</h2>
 	<ol>
@@ -58,10 +59,22 @@
 	Computer Science, University of Helsinki (with ISSN and ISBN numbers).
 	</p>
 
-	<h2>Participation of Portfolios</h2>
+<div style="background-color:#E49273">
+	<h2>Composition of Solvers</h2>
 	<p>
-	Portfolio SAT solvers which are a combinations of two or more (core) SAT solvers developed by different groups of authors are not allowed to participate in the competition.
+	Pure Portfolio SAT solvers which are a combinations of two or more (core) SAT solvers developed by different groups of authors are <b>not allowed</b> to participate in the competition.
 	</p>
+	<p>
+	Otherwise, composed solvers must have <b>different solving methodologies</b>, e.g., CDCL, SLS, Lookahead, Groebner Basis, etc., not just different solving strategies.
+	<ul>
+        <li>Examples of non-violation of this rule: Relaxed_LCMDCBDL_newTech (CDCL+SLS), Cube-and-Conquer (CDCL+Lookahead), MiniSat-ZK_GB (CDCL+Groebner Basis)</li>
+        <li>Examples of violation of this rule: MiniSat+lingeling, CCAnr + yalsat</li>
+	</ul>
+	Exempted from this rule are solvers which are singularly, and completely, written by the author(s), e.g., CaDiCaL+Kissat when submitted by Armin Biere.
+    There is no need to acquire permission to use the code or to add the original author(s) of the composed solvers to the published paper, if the copyright allows for this. 
+    However, doing it as a courtesy is encouraged, when this does not interfere with the maximal permitted solvers by the authors.
+	</p>
+</div>
 
 	<!--
 	<h2>Mandatory participation requirements for benchmarks</h2>
@@ -118,7 +131,7 @@
 	<h2>Participation of the organizers</h2>
 
 	<p>
-	The organizers of SAT Competition 2020 are not allowed to compete.
+	The organizers of <span class='tpl-name'></span> are not allowed to compete.
 	</p>
 
 	<h2>Number of submissions</h2>

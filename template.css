@@ -1,15 +1,15 @@
 .tpl-name::after {
-	content: "SAT Competition 2021"
+	content: "SAT Competition 20xx"
 }
 
 .tpl-afil::after {
-	content: "24rd International Conference on Theory and Applications of Satisfiability Testing"
+	content: "n-th International Conference on Theory and Applications of Satisfiability Testing"
 }
 
 .tpl-afil-place::after {
-	content: "5th - 9th of July 2021 in Barcelona, Spain"
+	content: "S - E of Month 20xx in City, State"
 }
 
 .tpl-afil-short::after {
-	content: "SAT Conference 2021"
+	content: "SAT Conference 20xx"
 }
